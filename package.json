@@ -4,7 +4,7 @@
   "description": "Meeting attendance tracking app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/neorusse/attendance-mgt/issues"
   },
-  "homepage": "https://github.com/neorusse/attendance-mgt#readme"
+  "homepage": "https://github.com/neorusse/attendance-mgt#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.17.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "json-server": "^0.15.0"
+  }
 }
