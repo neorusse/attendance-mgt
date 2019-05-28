@@ -1,0 +1,26 @@
+{
+  "name": "attendance-mgt",
+  "version": "1.0.0",
+  "description": "Meeting attendance tracking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neorusse/attendance-mgt.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "jQuery",
+    "JSON-Server"
+  ],
+  "author": "Russell Nyorere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neorusse/attendance-mgt/issues"
+  },
+  "homepage": "https://github.com/neorusse/attendance-mgt#readme"
+}
