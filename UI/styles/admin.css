@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #1034a6;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.far,
+.fab,
+.fas {
+  color: yellow;
+  font-size: 25px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.sidebar a:hover {
+  background-color: gray;
+  color: white;
+}
+
+div.content {
+  margin-left: 300px;
+  padding: 16px 16px;
+  height: 1000px;
+  width: 500px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+/********************
+Form Module
+*********************/
+
+form {
+  margin-left: 160px;
+}
+
+input {
+  width: 500px;
+  font-size: 16px;
+  font-weight: 100px;
+  padding: 12px 0 10px 5px;
+  transition: border 0.5s;
+  color: blue;
+}
+
+/* Extra Small devices (Phones, up to 480px) */
+@media only screen and (max-width: 47.9375em) {
+  form {
+    margin-left: auto;
+  }
+
+  input {
+    width: 300px;
+    font-size: 16px;
+    font-weight: 50px;
+    padding: 20px 0 10px 5px;
+    transition: border 0.5s;
+    color: blue;
+  }
+}
+
+/*Only display Navigation Links for Small Devices (tablets, 768px and up)*/
+@media (min-width: 48em) {
+  .title {
+    margin-left: 220px;
+    font-size: 18px;
+  }
+}
+
+/* .content {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .title {
+  margin-left: 160px;
+  font-size: 18px;
+} */
