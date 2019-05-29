@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable no-unused-vars */
 const signUpBtn = document.getElementById('signup');
 const signInBtn = document.getElementById('login');

@@ -21,6 +21,15 @@ body {
   text-decoration: none;
 }
 
+.far,
+.fab,
+.fas {
+  color: red;
+  font-size: 25px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .sidebar a:hover {
   background-color: gray;
   color: white;
