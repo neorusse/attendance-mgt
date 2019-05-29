@@ -1,0 +1,277 @@
+/***************************
+****************************
+Reset Styles
+****************************
+***************************/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/***************************
+****************************
+Base Styles
+****************************
+***************************/
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #111;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 100;
+  font-family: Georgia, serif;
+}
+
+a {
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  transition-duration: 0.05s;
+  text-decoration: none;
+}
+
+/***************************
+****************************
+Layout Styles
+****************************
+***************************/
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/********************
+Navigation Module
+*********************/
+
+.navbar {
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  display: none;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.main-nav__links {
+  color: #657387;
+}
+
+.navbar__toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: #1034a6;
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+.fa {
+  font-size: 40px;
+}
+
+/*Only display Navigation Links for Small Devices (tablets, 768px and up)*/
+@media (min-width: 48em) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 55px;
+    align-items: center;
+  }
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .main-nav li {
+    margin: 0;
+  }
+  .main-nav__links {
+    margin-left: 40px;
+  }
+  .navbar__toggle {
+    display: none;
+  }
+}
+
+/********************
+Heading Module
+*********************/
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0 18px 0;
+}
+
+/********************
+Picture Module
+*********************/
+.secondary img {
+  width: 100%;
+}
+
+#t {
+  margin-left: 200px;
+}
+
+/********************
+Form Module
+*********************/
+
+.form-box {
+  background: rgba(44, 62, 80, 0.7);
+  padding: 40px;
+  width: 380px;
+  margin: 35px auto 0 auto;
+  border-radius: 4px;
+}
+
+.form-box-signin {
+  height: 330px;
+}
+
+.form-box-reset {
+  height: 320px;
+}
+
+form {
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 200px;
+  padding: 12px 0 10px 5px;
+  transition: border 0.5s;
+  outline: none;
+  color: #fff;
+}
+
+input[type='button'] {
+  width: 240px;
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+  line-height: 25px;
+  color: #000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type='button']:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+h2 {
+  color: #fff;
+}
+
+a {
+  color: yellow;
+  text-decoration: blink;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+::placeholder {
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+#reset-display {
+  display: none;
+}
+
+@media only screen and (max-width: 899px) {
+  .form-box {
+    width: 345px;
+    margin-top: 40px;
+  }
+
+  input {
+    width: 270px;
+  }
+}
+
+/********************
+Footer Module
+*********************/
+.footer__info {
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/********************
+Media Queries
+*********************/
+
+/* Extra Small devices (Phones, up to 480px) */
+@media only screen and (max-width: 47.9375em) {
+  .navbar__logo {
+    margin-top: 15px;
+  }
+
+  .heading {
+    font-size: 17px;
+  }
+}
+
+/*Only display Navigation Links for Small Devices (tablets, 768px and up)*/
+@media (min-width: 48em) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    flex: 1;
+  }
+
+  .secondary {
+    order: -1;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .form-box {
+    width: 345px;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,89 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home | Attendance-Management</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- Header Section Starts -->
+    <header class="main-header">
+      <div class="container">
+        <nav class="navbar">
+          <span class="navbar__toggle js-navbar__toggle">
+            <i class="fa fa-bars"></i>
+          </span>
+          <div class="navbar__logo">
+            <a href="./index.html"
+              ><img src="./assets/logo.png" alt="logo" height="32" width="200"
+            /></a>
+          </div>
+          <ul class="main-nav js-main-nav">
+            <li>
+              <a href="#!" class="main-nav__links">Documentation</a>
+            </li>
+            <li>
+              <a href="#!" class="main-nav__links">Get Help</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header Section Ends -->
+    <h1 class="heading">Meeting Attendance Management System</h1>
+    <div class="row container">
+      <div class="primary col">
+        <div id="signin-display">
+          <form action="" name="signinform" class="form-box form-box-signin">
+            <h2 style="color: white">Log In</h2>
+            <div class="feedback-container3"></div>
+            <div class="feedback-container4"></div>
+            <input type="email" name="email" placeholder="Email" />
+            <input type="password" name="password" placeholder="Password" /><br /><br />
+            <input type="button" id="js-user-signin" value="Log In" /><br /><br />
+            <div id="container">
+              <a
+                href="#"
+                id="reset-pass"
+                style="margin-right:0px; font-size:17px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+                >Forget Password</a
+              >
+            </div>
+          </form>
+        </div>
+        <div id="reset-display">
+          <form action="" name="resetpassform" class="form-box form-box-reset">
+            <h2 style="color: white">Reset Password</h2>
+            <div class="feedback-container5"></div>
+            <input type="text" name="email" placeholder="Email address" /><br /><br />
+            <input type="button" id="js-reset-pass" value="Send Reset Password Link" /><br /><br />
+            Already have an account?<a href="#" id="logged-in">&nbsp;Log In</a>
+          </form>
+        </div>
+        <!-- Form Section Ends -->
+      </div>
+      <div class="secondary col">
+        <img src="./assets/calendar-pic.PNG" alt="calender" height="500" width="700" />
+      </div>
+    </div>
+    <!-- Footer Section Starts -->
+    <footer class="footer__info">
+      <p>&copy; <span class="js-date"></span> NeoDen, LLC. All Rights Reserved.</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
