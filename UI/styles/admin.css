@@ -24,7 +24,7 @@ body {
 .far,
 .fab,
 .fas {
-  color: red;
+  color: yellow;
   font-size: 25px;
   display: inline-block;
   margin-right: 10px;
@@ -64,3 +64,54 @@ div.content {
     float: none;
   }
 }
+
+/********************
+Form Module
+*********************/
+
+form {
+  margin-left: 160px;
+}
+
+input {
+  width: 500px;
+  font-size: 16px;
+  font-weight: 100px;
+  padding: 12px 0 10px 5px;
+  transition: border 0.5s;
+  color: blue;
+}
+
+/* Extra Small devices (Phones, up to 480px) */
+@media only screen and (max-width: 47.9375em) {
+  form {
+    margin-left: auto;
+  }
+
+  input {
+    width: 300px;
+    font-size: 16px;
+    font-weight: 50px;
+    padding: 20px 0 10px 5px;
+    transition: border 0.5s;
+    color: blue;
+  }
+}
+
+/*Only display Navigation Links for Small Devices (tablets, 768px and up)*/
+@media (min-width: 48em) {
+  .title {
+    margin-left: 220px;
+    font-size: 18px;
+  }
+}
+
+/* .content {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .title {
+  margin-left: 160px;
+  font-size: 18px;
+} */
