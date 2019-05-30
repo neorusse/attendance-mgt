@@ -47,16 +47,22 @@ $(document).ready(function() {
       if (decryptedPassword === password) {
         sessionStorage.setItem('employee-email', email);
         sessionStorage.setItem('employee-name', data[0].firstname);
+        // return;
+      }
+
+      if (data[0].employeeRole === 'admin') {
+        // redirect user to dashboard
+        window.location.href = './pages/admin/admin.html';
+      } else {
         // redirect user to dashboard
         window.location.href = './pages/employee-profile.html';
-      } else {
-        swal({
-          title: 'Error!',
-          text: 'Invalid email/password details',
-          icon: 'error',
-          button: 'Close'
-        });
       }
+      swal({
+        title: 'Error!',
+        text: 'Invalid email/password details',
+        icon: 'error',
+        button: 'Close'
+      });
     });
   });
 });
