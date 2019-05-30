@@ -17,6 +17,7 @@
     <div class="sidebar">
       <a href="./admin.html"><i class="fas fa-database"></i>All Employee</a>
       <a href="./employee-form.html"><i class="fas fa-plus"></i>Create an Employee</a>
+      <a href="./attendance.html"><i class="fas fa-address-book"></i>Take Attendance</a>
       <a href="#contact"><i class="fab fa-meetup"></i>Meeting Attendance Log</a>
       <a href="#about"><i class="far fa-chart-bar"></i>Report</a>
     </div>
@@ -33,10 +34,13 @@
         <input type="text" name="id" placeholder="Employee ID" id="employee-id" /><br /><br />
         <input type="text" name="firstname" placeholder="Firstname" id="firstname" /><br /><br />
         <input type="text" name="lastname" placeholder="Lastname" id="lastname" /><br /><br />
-        <select name="gender" id="gender">
-          <option value="male">Male</option>
-          <option value="female">Female</option> </select
-        ><br /><br />
+        <div class="select" id="select-size">
+          <select name="gender" id="gender" name="slct" id="slct">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <br /><br />
         <input type="text" name="department" placeholder="Department" id="department" /><br /><br />
         <input
           type="text"
