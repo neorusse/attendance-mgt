@@ -23,7 +23,6 @@
     </div>
 
     <div class="content">
-      <h2 class="title">Create a New Employee Profile</h2>
       <form
         action=""
         name="signinform"
@@ -31,27 +30,35 @@
         action="http://localhost:9090/employees"
         method="post"
       >
-        <input type="text" name="id" placeholder="Employee ID" id="employee-id" /><br /><br />
-        <input type="text" name="firstname" placeholder="Firstname" id="firstname" /><br /><br />
-        <input type="text" name="lastname" placeholder="Lastname" id="lastname" /><br /><br />
-        <div class="select" id="select-size">
-          <select name="gender" id="gender" name="slct" id="slct">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
+        <h2>Take Meeting Attendance</h2>
+        <div class="select">
+          <select name="slct" id="slct">
+            <option>Employee Id</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
           </select>
         </div>
         <br /><br />
-        <input type="text" name="department" placeholder="Department" id="department" /><br /><br />
-        <input
-          type="text"
-          name="designation"
-          placeholder="Designation"
-          id="designation"
-        /><br /><br />
-        <input type="email" name="email" placeholder="Email" id="email" /><br /><br />
-        <button type="submit">Create</button>
+        <div class="select">
+          <select name="slct" id="slct">
+            <option>Employee Name</option>
+            <option value="1">John Doe</option>
+            <option value="2">Russell Nyorere</option>
+          </select>
+        </div>
+        <br /><br />
+        <div class="select">
+          <select name="slct" id="slct">
+            <option>Meetings</option>
+            <option value="1">JavaScript Conf</option>
+            <option value="2">PHP Meetup</option>
+          </select>
+        </div>
+        <br /><br />
+        <button type="submit">Submit</button>
       </form>
     </div>
+
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
