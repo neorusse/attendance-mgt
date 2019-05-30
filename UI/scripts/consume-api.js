@@ -6,8 +6,8 @@
 $.get(`${rootUrl}employees?_sort=id&_order=asc`, function(data) {
   // Select table body
   const tableBody = $('.table-body');
-  const formOptions = $('#slct');
-  const formOptions1 = $('#slct1');
+  const formOptions = $('#employee-id');
+  const formOptions1 = $('#employee-name');
   let serial = 0;
 
   for (const employee of data) {

@@ -38,6 +38,56 @@
       "createdAt": "Thu May 30 2019 20:24:56 GMT+0100 (West Africa Standard Time)",
       "updatedAt": "Thu May 30 2019 20:24:56 GMT+0100 (West Africa Standard Time)",
       "id": 3
+    },
+    {
+      "employeeRole": "user",
+      "firstname": "okoro",
+      "lastname": "babalola",
+      "gender": "female",
+      "department": "design",
+      "designation": "hr officer",
+      "email": "vcovwian@gmail.com",
+      "password": "U2FsdGVkX1/qHUkOdEz2zMU/mWWiC0SgqXqjGFlmBMs=",
+      "createdAt": "Thu May 30 2019 23:29:13 GMT+0100 (West Africa Standard Time)",
+      "updatedAt": "Thu May 30 2019 23:29:13 GMT+0100 (West Africa Standard Time)",
+      "id": 4
+    }
+  ],
+  "attendance": [
+    {
+      "employId": "1",
+      "employeeName": "ernest kupa",
+      "meetingName": "java",
+      "createdAt": "Thu May 30 2019 23:24:03 GMT+0100 (West Africa Standard Time)",
+      "id": 1
+    },
+    {
+      "employId": "2",
+      "employeeName": "russell brian",
+      "meetingName": "php concafe meetup",
+      "createdAt": "Thu May 30 2019 23:24:58 GMT+0100 (West Africa Standard Time)",
+      "id": 2
+    },
+    {
+      "employId": "Employee Id",
+      "employeeName": "Employee Name",
+      "meetingName": "",
+      "createdAt": "Thu May 30 2019 23:35:12 GMT+0100 (West Africa Standard Time)",
+      "id": 3
+    },
+    {
+      "employId": "4",
+      "employeeName": "russell nyorere",
+      "meetingName": "decagon new york meetup",
+      "createdAt": "Thu May 30 2019 23:55:56 GMT+0100 (West Africa Standard Time)",
+      "id": 4
+    },
+    {
+      "employId": "Employee Id",
+      "employeeName": "Employee Name",
+      "meetingName": "",
+      "createdAt": "Fri May 31 2019 00:16:44 GMT+0100 (West Africa Standard Time)",
+      "id": 5
     }
   ]
 }
