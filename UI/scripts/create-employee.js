@@ -43,9 +43,10 @@ $(document).ready(function() {
 
           // Get form values
           const formData = {
-            employeeId: $('#employee-id')
+            employeeRole: $('#employee-role')
               .val()
-              .trim(),
+              .toLowerCase(),
+            employeeId: $('#employee-id').val(),
             firstname: $('#firstname')
               .val()
               .trim()
@@ -56,7 +57,6 @@ $(document).ready(function() {
               .toLowerCase(),
             gender: $('#gender')
               .val()
-              .trim()
               .toLowerCase(),
             department: $('#department')
               .val()
@@ -80,7 +80,6 @@ $(document).ready(function() {
             .done(data => {
               $('form')[0].reset();
               const { email, firstname } = data;
-              console.log(email);
               Email.send({
                 Host: 'smtp.gmail.com',
                 Username: 'neodendigital@gmail.com',
