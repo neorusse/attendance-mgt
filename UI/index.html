@@ -47,9 +47,14 @@
             <h2 style="color: white">Log In</h2>
             <div class="feedback-container3"></div>
             <div class="feedback-container4"></div>
-            <input type="email" name="email" placeholder="Email" />
-            <input type="password" name="password" placeholder="Password" /><br /><br />
-            <input type="button" id="js-user-signin" value="Log In" /><br /><br />
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            /><br /><br />
+            <input type="submit" id="js-user-signin" value="Log In" /><br /><br />
             <div id="container">
               <a
                 href="#"
@@ -64,8 +69,8 @@
           <form action="" name="resetpassform" class="form-box form-box-reset">
             <h2 style="color: white">Reset Password</h2>
             <div class="feedback-container5"></div>
-            <input type="text" name="email" placeholder="Email address" /><br /><br />
-            <input type="button" id="js-reset-pass" value="Send Reset Password Link" /><br /><br />
+            <input type="text" name="email" id="email" placeholder="Email address" /><br /><br />
+            <input type="submit" id="js-reset-pass" value="Send Reset Password Link" /><br /><br />
             Already have an account?<a href="#" id="logged-in">&nbsp;Log In</a>
           </form>
         </div>
@@ -80,10 +85,13 @@
       <p>&copy; <span class="js-date"></span> NeoDen, LLC. All Rights Reserved.</p>
     </footer>
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
     ></script>
+    <script src="../rootUrl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./scripts/login-employee.js"></script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>
