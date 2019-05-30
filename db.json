@@ -12,6 +12,32 @@
       "createdAt": "Thu May 30 2019 03:59:08 GMT+0100 (West Africa Standard Time)",
       "updatedAt": "Thu May 30 2019 03:59:08 GMT+0100 (West Africa Standard Time)",
       "id": 1
+    },
+    {
+      "employeeId": "3",
+      "firstname": "russell",
+      "lastname": "brian",
+      "gender": "female",
+      "department": "design",
+      "designation": "software",
+      "email": "covwian@gmail.com",
+      "password": "U2FsdGVkX1+CN2hKEFWFDdVnR3q24RZPzoJ3Nb2b74Q=",
+      "createdAt": "Thu May 30 2019 15:07:25 GMT+0100 (West Africa Standard Time)",
+      "updatedAt": "Thu May 30 2019 15:07:25 GMT+0100 (West Africa Standard Time)",
+      "id": 2
+    },
+    {
+      "employeeRole": "admin",
+      "firstname": "russell",
+      "lastname": "nyorere",
+      "gender": "male",
+      "department": "engineering",
+      "designation": "technical support",
+      "email": "neorusse@gmail.com",
+      "password": "U2FsdGVkX19V8hVRy2hMfbj9StrMV+BLBk7Lr6PrJJA=",
+      "createdAt": "Thu May 30 2019 20:24:56 GMT+0100 (West Africa Standard Time)",
+      "updatedAt": "Thu May 30 2019 20:24:56 GMT+0100 (West Africa Standard Time)",
+      "id": 3
     }
   ]
 }
