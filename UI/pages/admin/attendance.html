@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Admin | Attendance-Management</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../styles/admin.css" />
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <a href="./admin.html"><i class="fas fa-database"></i>All Employee</a>
+      <a href="./employee-form.html"><i class="fas fa-plus"></i>Create an Employee</a>
+      <a href="./attendance.html"><i class="fas fa-address-book"></i>Take Attendance</a>
+      <a href="#contact"><i class="fab fa-meetup"></i>Meeting Attendance Log</a>
+      <a href="#about"><i class="far fa-chart-bar"></i>Report</a>
+    </div>
+
+    <div class="content">
+      <form
+        action=""
+        name="signinform"
+        id="js-create-employee"
+        action="http://localhost:9090/employees"
+        method="post"
+      >
+        <h2>Take Meeting Attendance</h2>
+        <div class="select">
+          <select name="slct" id="slct">
+            <option>Employee Id</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>
+        <br /><br />
+        <div class="select">
+          <select name="slct" id="slct">
+            <option>Employee Name</option>
+            <option value="1">John Doe</option>
+            <option value="2">Russell Nyorere</option>
+          </select>
+        </div>
+        <br /><br />
+        <div class="select">
+          <select name="slct" id="slct">
+            <option>Meetings</option>
+            <option value="1">JavaScript Conf</option>
+            <option value="2">PHP Meetup</option>
+          </select>
+        </div>
+        <br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    ></script>
+    <script src="../../../rootUrl.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../../scripts/create-employee.js"></script>
+  </body>
+</html>
