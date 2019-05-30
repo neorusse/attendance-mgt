@@ -199,15 +199,17 @@ input[type='submit']:hover {
 
 h2 {
   color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 a {
-  color: yellow;
+  color: #f39c12;
   text-decoration: blink;
 }
 
 a:hover {
-  color: skyblue;
+  color: #1034a6;
 }
 
 ::placeholder {
