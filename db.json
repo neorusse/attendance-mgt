@@ -1,0 +1,17 @@
+{
+  "employees": [
+    {
+      "employeeId": "1",
+      "firstname": "ernest",
+      "lastname": "kupa",
+      "gender": "male",
+      "department": "engineering",
+      "designation": "designer",
+      "email": "ecodenhub@gmail.com",
+      "password": "U2FsdGVkX1+FnDHcyKLdXNiwbrMhO0R91vrjmGlhLdU=",
+      "createdAt": "Thu May 30 2019 03:59:08 GMT+0100 (West Africa Standard Time)",
+      "updatedAt": "Thu May 30 2019 03:59:08 GMT+0100 (West Africa Standard Time)",
+      "id": 1
+    }
+  ]
+}
