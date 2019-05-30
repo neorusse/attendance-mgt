@@ -56,7 +56,7 @@ $(document).ready(function() {
         } else {
           swal({
             title: 'Error!',
-            text: 'Internal Server Error',
+            text: 'Attendance already taken',
             icon: 'error',
             button: 'Close'
           });
