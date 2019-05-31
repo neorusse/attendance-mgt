@@ -51,6 +51,19 @@
       "createdAt": "Thu May 30 2019 23:29:13 GMT+0100 (West Africa Standard Time)",
       "updatedAt": "Thu May 30 2019 23:29:13 GMT+0100 (West Africa Standard Time)",
       "id": 4
+    },
+    {
+      "employeeRole": "user",
+      "firstname": "benjamin",
+      "lastname": "okoro",
+      "gender": "male",
+      "department": "quality control",
+      "designation": "qa analyst",
+      "email": "scovwian@gmail.com",
+      "password": "U2FsdGVkX1+zEcDxmzsW8ey9eltA2VgbdZPbcDGj0vA=",
+      "createdAt": "Fri May 31 2019 08:40:51 GMT+0100 (West Africa Standard Time)",
+      "updatedAt": "Fri May 31 2019 08:40:51 GMT+0100 (West Africa Standard Time)",
+      "id": 5
     }
   ],
   "attendance": [
@@ -67,27 +80,6 @@
       "meetingName": "php concafe meetup",
       "createdAt": "Thu May 30 2019 23:24:58 GMT+0100 (West Africa Standard Time)",
       "id": 2
-    },
-    {
-      "employId": "Employee Id",
-      "employeeName": "Employee Name",
-      "meetingName": "",
-      "createdAt": "Thu May 30 2019 23:35:12 GMT+0100 (West Africa Standard Time)",
-      "id": 3
-    },
-    {
-      "employId": "4",
-      "employeeName": "russell nyorere",
-      "meetingName": "decagon new york meetup",
-      "createdAt": "Thu May 30 2019 23:55:56 GMT+0100 (West Africa Standard Time)",
-      "id": 4
-    },
-    {
-      "employId": "Employee Id",
-      "employeeName": "Employee Name",
-      "meetingName": "",
-      "createdAt": "Fri May 31 2019 00:16:44 GMT+0100 (West Africa Standard Time)",
-      "id": 5
     }
   ]
 }
