@@ -11,6 +11,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../../styles/admin.css" />
+    <script>
+      if (!sessionStorage.employeeRole) {
+        window.location.href = '../../index.html';
+      }
+    </script>
   </head>
 
   <body>
@@ -20,7 +25,7 @@
       <a href="./attendance.html"><i class="fas fa-address-book"></i>Take Attendance</a>
       <a href="./meeting-attend.html"><i class="fab fa-meetup"></i>Meeting Attendance Log</a>
       <a href="#about"><i class="far fa-chart-bar"></i>Report</a>
-      <a href="#about"><i class="fas fa-sign-out-alt"></i>Logout</a>
+      <a href="#about" id="logout"><i class="fas fa-sign-out-alt"></i>Logout</a>
     </div>
 
     <div class="content">
@@ -81,5 +86,6 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="../../scripts/create-employee.js"></script>
+    <script src="../../scripts/logout.js"></script>
   </body>
 </html>

@@ -45,8 +45,9 @@ $(document).ready(function() {
       const decryptedPassword = decrypted.toString(CryptoJS.enc.Utf8);
 
       if (decryptedPassword === password) {
-        sessionStorage.setItem('employee-email', email);
-        sessionStorage.setItem('employee-name', data[0].firstname);
+        sessionStorage.setItem('employeeEmail', email);
+        sessionStorage.setItem('employeeName', data[0].firstname);
+        sessionStorage.setItem('employeeRole', data[0].employeeRole);
         // return;
       }
 
